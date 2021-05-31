@@ -11,4 +11,8 @@ public class WebController {
         return "hello world";
     }
     
+    @GetMapping
+    public String getGreetings() { 
+        return "Namaste";
+    }
 }
