@@ -6,12 +6,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class WebController {
 
-    @GetMapping
+    @GetMapping("/one/hello")
     public String getMessage() { 
         return "hello world";
     }
     
-    @GetMapping
+    @GetMapping("/one/hilo")
     public String getGreetings() { 
         return "Namaste";
     }
