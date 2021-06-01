@@ -11,7 +11,7 @@ public class WebController {
         return "hello world";
     }
     
-    @GetMapping("/hi")
+    @GetMapping("/hilo")
     public String getGreetings() { 
         return "Namaste";
     }
